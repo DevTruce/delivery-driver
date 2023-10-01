@@ -6,8 +6,11 @@ public class driver : MonoBehaviour
 {
 
     // variables 
-    [SerializeField] int steerSpeed = 300;
-    [SerializeField] int moveSpeed = 15;
+    [SerializeField] float steerSpeed = 250f;
+    [SerializeField] float moveSpeed = 15f;
+    [SerializeField] float slowSpeed = 5f;
+    [SerializeField] float boostSpeed = 25f;
+    bool speedStatus = false;
 
     // [SerializeField] float steerSpeed = 1f;
     // [SerializeField] float moveSpeed = 0.1f;
@@ -25,5 +28,30 @@ public class driver : MonoBehaviour
         float moveAmount = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
         transform.Rotate(0, 0, -steerAmount);
         transform.Translate(0, moveAmount, 0);
+
     }
+
+
+     private void OnTriggerEnter2D(Collider2D other) 
+        {
+            if (other.tag == "SpeedUp" && speedStatus == false) 
+            {
+                moveSpeed = boostSpeed;
+                speedStatus = true;
+                Destroy(other.gameObject);
+
+            }
+
+            if (other.tag == "SlowDown" && moveSpeed > 1) 
+            {
+                moveSpeed = moveSpeed - slowSpeed;
+
+                if (moveSpeed <= 0) {
+                    moveSpeed = moveSpeed + 1;
+                }
+                Destroy(other.gameObject);
+            } 
+        }
+
+    
 }
