@@ -55,7 +55,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](product-link)
 [![Product Name Screen Shot][product-screenshot2]](product-link)
-This is my first creation with unity and c#, I have a fun time building it and learning the basics of unity. This is a simple delivery driving game where the goal is to drive around the city and pick up all of the packages [green squares] and deliver them to the cusomters home [blue circle]. During this process you will run into speed ups and slow downs which can help or hinder your deliver times. You are only allowed to pick up one package at a time and you must deliver it before you can obtian another. This is not a serious or complete game, just a learning project.
+This is my first creation with unity and c#, I have a fun time building it and learning the basics of unity. This is a simple delivery driving game where the goal is to drive around the city and pick up all of the packages [green squares] and deliver them to the cusomters home [blue circle]. During this process you will run into speed ups and slow downs which can help or hinder your deliver times. You are only allowed to pick up one package at a time and you must deliver it before you can obtian another. W,A,S,D are the only game controls and that is how you control your vehicle. This is not a serious or complete game, just a learning project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
