@@ -25,7 +25,7 @@
     <a href="https://github.com/DevTruce/delivery-driver" target="_blank"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://devtruce.github.io/delivery-driver/" target="_blank">View Demo</a>
+    <a href="https://github.com/DevTruce/delivery-driver/releases/tag/playableTest" target="_blank">Playable Test</a>
     ·
     <a href="https://github.com/DevTruce/delivery-driver/issues" target="_blank">Report Bug</a>
     ·
