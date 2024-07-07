@@ -25,6 +25,13 @@
   </p>
 </div>
 
+<!-- ABOUT THE PROJECT -->
+
+## Screenshots
+
+[![Delivery Driver Screenshot][product-screenshot]](product-link)
+[![Delivery Driver Screenshot][product-screenshot2]](product-link)
+
 ### Built With
 
 - [![C#][c#-icon]][c#-link]
@@ -55,6 +62,9 @@ Discord: [xzypher.]()
 
 <!-- ## Project ## -->
 
+
+[product-screenshot]: ./screenshot.png
+[product-screenshot2]: ./screenshot2.png
 [product-link]: https://devtruce.github.io/delivery-driver/
 
 <!-- ## Tech & Tools ## -->
